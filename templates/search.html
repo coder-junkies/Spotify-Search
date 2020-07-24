@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <title>Search Results</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet" />
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <div class="s128">
+        <div class="inner-form">
+          <div class="row">
+            <div style="width: 40rem;">
+                <iframe src="https://open.spotify.com/embed/{{key}}/{{value}}" width="90%" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <!-- https://open.spotify.com/track/6yr8GiTHWvFfi4o6Q5ebdT?si=sbDwN7yVSZ2jbRFMb3I7_w -->
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
